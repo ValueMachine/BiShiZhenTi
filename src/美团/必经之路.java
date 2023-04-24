@@ -25,16 +25,18 @@ public class 必经之路 {
         Scanner sc = new Scanner(System.in);
         Tree = new ArrayList<>();
         n = sc.nextInt();
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <=n+1; i++) {
             Tree.add(new ArrayList<>());
         }
-        int[] pi = new int[n - 1];
-        for (int i = 0; i <n-1; i++) {
+        int[] pi = new int[n ];
+        for (int i = 1; i <n; i++) {
             pi[i] = sc.nextInt();
         }
-        for (int i = 0; i < n+2; i++) {
-            Tree.get(i + 2).add(pi[i]);
-            Tree.get(pi[i]).add(i + 2);
+        int i=1;
+        for (int j = 1; j < n; j++) {
+            Tree.get(i + 1).add(pi[i]);
+            Tree.get(pi[i]).add(i + 1);
+            i++;
         }
         int x = sc.nextInt();
         int y = sc.nextInt();
