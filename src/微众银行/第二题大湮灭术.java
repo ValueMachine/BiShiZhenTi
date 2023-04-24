@@ -1,7 +1,5 @@
 package 微众银行;
 
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.Scanner;
 
 /*
@@ -22,13 +20,17 @@ import java.util.Scanner;
         样例输入
         10
         -32 23 -93 -21 30 9 27 -88 93 61
+        30 9 27 93 61
+
+        -32 -9 -102 -123 -93 -84 -57 -145 -52  9
+          32  9   102   123  93   84  57   145  52 -9
         样例输出
         220
         提示
         数据范围和说明
         显然把{-32 23 -93 -21}和{-88}删掉之后，余下的和为220。
 */
-public class 第二题 {
+public class 第二题大湮灭术 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

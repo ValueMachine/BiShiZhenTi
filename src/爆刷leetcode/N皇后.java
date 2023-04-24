@@ -1,4 +1,4 @@
-package baoshualicode;
+package 爆刷leetcode;
 import  java.util.*;
 public class N皇后 {
             public List<List<String>> solveNQueens(int n) {

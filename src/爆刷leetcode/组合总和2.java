@@ -1,4 +1,4 @@
-package baoshualicode;
+package 爆刷leetcode;
 
 import java.util.*;
 

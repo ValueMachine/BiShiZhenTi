@@ -1,4 +1,4 @@
-package paixu;
+package 排序;
 
 public class 合并二叉树 {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {

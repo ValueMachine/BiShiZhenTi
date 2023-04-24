@@ -1,4 +1,4 @@
-package lock;
+package 锁;
 
 public class SynchronizedDemo {
    static class Ticker{

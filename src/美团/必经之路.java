@@ -4,51 +4,52 @@ import java.util.ArrayList;
 import java.util.*;
 import java.util.Scanner;
 
-public class 美团笔试 {
+/*题目描述：
+        有一棵 n 个节点的树，有一条边被选定。小美想知道对于所有经过这条选定边的所有树上简单路径，最长的那条有多长。
+        一条简单的路径的长度指这条简单路径上的边的个数。
+        输入描述
+        第一行一个整数 n，表示树的节点个数。
+        第二行 n-1 个整数，第 i 个整数 pi 表示节点 i+1 和 pi 之间有一条边相连。
+        第三行两个整数 x, y，表示这条选定的边。保证这条边一定是树上的一条边。
+        对于全部数据，2 ≤ n ≤ 105, 1 ≤ pi ≤ n, 1 ≤ x, y ≤ n, x ≠ y。保证输入数据正确描述一棵树，并且 (x, y) 是树上的一条边。
+        输出描述
+        输出一行，一个整数，表示所有经过选定边的树上简单路径中，最长的那条的长度。
+        样例输入
+        7
+        1 2 3 4 5 3
+        3 7
+        样例输出
+        4*/
+public class 必经之路 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] nums = new int[n-1];
-        for (int i = 0; i < n - 1; i++) {
-            nums[i] = sc.nextInt();
+        Tree = new ArrayList<>();
+        n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            Tree.add(new ArrayList<>());
+        }
+        int[] pi = new int[n - 1];
+        for (int i = 0; i <n-1; i++) {
+            pi[i] = sc.nextInt();
+        }
+        for (int i = 0; i < n+2; i++) {
+            Tree.get(i + 2).add(pi[i]);
+            Tree.get(pi[i]).add(i + 2);
         }
         int x = sc.nextInt();
         int y = sc.nextInt();
-        int[][] edges = new int[n - 1][2];
-        for (int i = 1; i < n-1 ; i++) {
-            edges[i][0] =nums[i];
-            edges[i][1] =i+2;
-        }
-        int []degree = new int[n];
-        List<List<Integer>> nxs = new ArrayList<>();
-        for(int i =0;i<n;i++) nxs.add(new ArrayList<>());
-        for(int[] edge: edges){
-            int a = edge[0] , b =edge[1];
-            degree[a]++;
-            degree[b]++;
-            nxs.get(b).add(a);
-            nxs.get(a).add(b);
-        }
-        Deque<Integer> q = new LinkedList<>();
-        for(int i = 0;i<n;i++){
-            if(degree[i]==1) q.addLast(i);
-        }
-        List<Integer> res = new LinkedList<>();
-        while(!q.isEmpty()){
-            res = new LinkedList<>();
-            int size = q.size();
-            for (int i = 0; i < size; i++) {
-                int node = q.pollFirst();
-                res . add((node));
-                for(int nx:nxs.get(node)){
-                    degree[nx]--;
-                    if(degree[nx]==1)q.addLast(nx);
-                }
+        System.out.println(dfs(x,y)+dfs(y,x)-1);
+    }
+    static int n;
+    static List<List<Integer>> Tree;
+    static  int dfs(int node, int pre){
+        int count= 1;
+        for (int nx :Tree.get(node)){
+            if (nx!=pre){
+                count = Math.max(count,dfs(nx,node)+1);
             }
         }
-            int count = res.size();
-        System.out.println(count);
-
-
+        return  count;
     }
+
 }

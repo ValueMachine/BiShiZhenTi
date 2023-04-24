@@ -1,4 +1,4 @@
-package baoshualicode;
+package 爆刷leetcode;
 
 import java.util.*;
 
@@ -19,25 +19,16 @@ public class 百度笔试 {
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
-        //int ans =  dfs(0,0,0,nums);
-        dp = new int[n];
-        Arrays.fill(dp, -1);
-        int ans = dfs(0, 0, 0, 0, nums);
-        System.out.println(ans);
-    }
-
-    static int[] dp;
-
-    static int dfs(int index, int flag, int sum, int cur, int[] nums) {
-        if (cur >= m || index >= nums.length) return sum;
-        for (int i = 0; i < n; i++) {
-            if (dp[index] != -1) return dp[i];
-            if (flag >= k) {
-                flag = 0;
-                continue;
-            }
-            sum = Math.max(dfs(index, flag + 1, sum + nums[i], cur + 1, nums), dfs(index + 1, flag, sum, cur + 1, nums));
+        Arrays.sort(nums);
+        int sum = 0;
+        int max = nums[n - 1];
+        int sec_max = nums[n - 2];
+        int round = m / (k + 1);
+        int left_round = m % (k + 1);
+        sum += round * (max * k + sec_max);
+        if (left_round != 0) {
+            sum += max * left_round;
         }
-        return dp[index] = sum;
+        System.out.println(sum);
     }
 }

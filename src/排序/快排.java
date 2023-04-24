@@ -1,4 +1,4 @@
-package paixu;
+package 排序;
 import java.util.Arrays;
 public class 快排 {
     public static class Solution2 {
