@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc08c416-3e1d-409b-976f-de0f84031155" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/华为/树上逃离0419.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/荣耀/第二题螺旋矩阵右上角出发.java" afterDir="false" />
+    <list default="true" id="bc08c416-3e1d-409b-976f-de0f84031155" name="Changes" comment="数组越界搞定">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/华为/买水果最便宜方案.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/华为/买水果最便宜方案.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/华为/考古问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/华为/考古问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/微众银行/第二题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/微众银行/第二题大湮灭术.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/拼多多0418/第四题分金币.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/拼多多0418/第四题分金币.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/合并二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/合并二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/堆排.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/堆排.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/归并.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/归并.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/快排.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/快排.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/插排.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/插排.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序/选择排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/选择排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/爆刷leetcode/N皇后.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/爆刷leetcode/N皇后.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/爆刷leetcode/回溯.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/爆刷leetcode/回溯.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/爆刷leetcode/复原IP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/爆刷leetcode/复原IP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/爆刷leetcode/百度笔试.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/爆刷leetcode/百度笔试.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/爆刷leetcode/组合总和2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/爆刷leetcode/组合总和2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/爆刷leetcode/递增子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/爆刷leetcode/递增子序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/美团/必经之路.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/美团/必经之路.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/腾讯/字符串拆分拼接.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/腾讯/字符串拆分拼接.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/锁/LockSaleTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/锁/LockSaleTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/锁/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/锁/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/锁/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/锁/SynchronizedDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.必经之路">
+  <component name="RunManager" selected="Application.CPU时间片0419">
     <configuration name="第二题大湮灭术" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="微众银行.第二题大湮灭术" />
       <module name="SHUATI" />
@@ -104,216 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="大湮灭书前缀和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="微众银行.大湮灭书前缀和" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="微众银行.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="必经之路" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="美团.必经之路" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="美团.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CPU时间片0419" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="华为.CPU时间片0419" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="华为.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第二题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="携程0415.第二题" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="携程0415.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="乘积为正" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="美团.乘积为正" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="美团.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第一题最短路" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="荣耀.第一题最短路" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="荣耀.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="必经之路" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="美团.必经之路" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="美团.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第一题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="携程0415.第一题" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="携程0415.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="配制溶液" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="小红书笔试409.配制溶液" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="小红书笔试409.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第一题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="美的.第一题" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="美的.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第二题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="美的.第二题" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="美的.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="螺旋矩阵右上角出发" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="荣耀.螺旋矩阵右上角出发" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="荣耀.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="小爽" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream流.小爽" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream流.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第二题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="携程0415.第二题" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="携程0415.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="编辑距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baoshualicode.编辑距离" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baoshualicode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="第一题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="携程0415.第一题" />
-      <module name="SHUATI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="携程0415.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="买水果最便宜方案" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="华为.买水果最便宜方案" />
       <module name="SHUATI" />
       <extension name="coverage">
         <pattern>
@@ -344,6 +112,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="携程0415.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="大湮灭书前缀和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="微众银行.大湮灭书前缀和" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="微众银行.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,6 +223,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="第一题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="美的.第一题" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="美的.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="第二题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="腾讯音乐230413.第二题" />
       <module name="SHUATI" />
@@ -474,6 +268,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="拼多多0418.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="必经之路" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="美团.必经之路" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="美团.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -559,6 +366,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="第二题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="美的.第二题" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="美的.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="第三题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="美的.第三题" />
       <module name="SHUATI" />
@@ -604,6 +424,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="paixu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第二题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="携程0415.第二题" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="携程0415.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -663,12 +496,153 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="乘积为正" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="美团.乘积为正" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="美团.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="螺旋矩阵右上角出发" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="荣耀.螺旋矩阵右上角出发" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="荣耀.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第一题最短路" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="荣耀.第一题最短路" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="荣耀.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="必经之路" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="美团.必经之路" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="美团.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第一题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="携程0415.第一题" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="携程0415.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="配制溶液" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="小红书笔试409.配制溶液" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="小红书笔试409.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="小爽" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream流.小爽" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream流.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第二题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="携程0415.第二题" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="携程0415.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="编辑距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baoshualicode.编辑距离" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baoshualicode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第一题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="携程0415.第一题" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="携程0415.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="买水果最便宜方案" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="华为.买水果最便宜方案" />
+      <module name="SHUATI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="华为.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.必经之路" />
         <item itemvalue="Application.树上逃离0419" />
         <item itemvalue="Application.第二题大湮灭术" />
-        <item itemvalue="Application.大湮灭书前缀和" />
         <item itemvalue="Application.CPU时间片0419" />
       </list>
     </recent_temporary>
@@ -732,8 +706,24 @@
       <workItem from="1682160763962" duration="14848000" />
       <workItem from="1682217247171" duration="17728000" />
       <workItem from="1682305711115" duration="956000" />
-      <workItem from="1682321124309" duration="13512000" />
+      <workItem from="1682321124309" duration="16511000" />
+      <workItem from="1682353254070" duration="824000" />
     </task>
+    <task id="LOCAL-00001" summary="20230424">
+      <created>1682350252989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682350252989</updated>
+    </task>
+    <task id="LOCAL-00002" summary="数组越界搞定">
+      <created>1682353152446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682353152446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,11 +734,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20230424" />
+    <MESSAGE value="数组越界搞定" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组越界搞定" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
