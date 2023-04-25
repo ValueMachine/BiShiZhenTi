@@ -35,7 +35,8 @@ public class 必经之路 {
         int i=1;
         for (int j = 1; j < n; j++) {
             Tree.get(i + 1).add(pi[i]);    //注意数组越界的处理
-            Tree.get(pi[i]).add(i + 1);
+            Tree.get(pi[i]).add(i + 1);    //测试注释
+
             i++;
         }
         int x = sc.nextInt();
