@@ -35,7 +35,6 @@ public class 快排2 {
             }
         }
         swap(nums, left, j);
-
         quickSort(nums, left, j - 1);
         quickSort(nums, j + 1, right);
     }
