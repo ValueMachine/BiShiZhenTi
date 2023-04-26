@@ -13,7 +13,7 @@ public class 堆排 {
     public static void heapSort(int arr[]) {
         int temp = 0;
         // adjustHeap(arr, 0, arr.length);
-        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {   //从最后一个非叶子节点开始构造大顶堆
             adjustHeap(arr, i, arr.length);             //形成大根堆
         }
         /**
@@ -40,7 +40,7 @@ public class 堆排 {
     public static void adjustHeap(int arr[], int i, int length) {
         int temp = arr[i];//先取出当前元素的值，保存在临时变量
         //开始调整.
-        //说明:k=i*2+1k是i结点的左子结点
+        //说明:k=i*2+1  k是i结点的左子结点
         for (int k = i * 2 + 1; k < length; k = k * 2 + 1) {
             if (k + 1 < length && arr[k] < arr[k + 1]) {
                 k++;
