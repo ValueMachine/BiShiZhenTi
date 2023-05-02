@@ -4,20 +4,22 @@ import java.util.Scanner;
 
 public class 剑指offer12矩阵中的路径 {
     public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
-       int m = sc.nextInt();
-       int n=sc.nextInt();
-       board = new char[m][n];
-       sc.nextLine();
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+        board = new char[m][n];
+        sc.nextLine();
         for (int i = 0; i < m; i++) {
-            board[i] =sc.nextLine().toCharArray();
+            board[i] = sc.nextLine().toCharArray();
         }
         word = sc.nextLine();
-        System.out.println(exist(board,word));
+        System.out.println(exist(board, word));
 
     }
-    static  char[][]board;
-    static  String word;
+
+    static char[][] board;
+    static String word;
+
     public static boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
         for (int i = 0; i < board.length; i++) {
@@ -27,12 +29,13 @@ public class 剑指offer12矩阵中的路径 {
         }
         return false;
     }
+
     public static boolean dfs(char[][] board, char[] word, int i, int j, int k) {
         if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word[k]) return false;
         if (k == word.length - 1) return true;
         board[i][j] = '\0';
         boolean res = dfs(board, word, i + 1, j, k + 1) || dfs(board, word, i, j + 1, k + 1)
-                                || dfs(board, word, i - 1, j, k + 1) || dfs(board, word, i, j - 1, k + 1);
+                || dfs(board, word, i - 1, j, k + 1) || dfs(board, word, i, j - 1, k + 1);
         board[i][j] = word[k];
         return res;
     }
