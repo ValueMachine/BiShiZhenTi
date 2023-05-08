@@ -13,8 +13,8 @@ public class 奇怪的加法0506 {
         a = str.length();
         int len1 = str1.length(), len2 = a - 1 - len1;
         int len_f1 = str1.split("\\.")[0].length();
-        int len_f2 = str2.split("\\.")[0].length();
-        int len_a1 = len1 - 1 - len_f1, len_a2 = len2 - 1 - len_f2;
+        int len_f2 = str2.split("\\.")[0].length();                                     //整数部分长度
+        int len_a1 = len1 - 1 - len_f1, len_a2 = len2 - 1 - len_f2;                     //小数部分长度
 
         System.out.println(len_f1 + " " + len_f2 + " " + len_a1 + " " + len_a2);
 
